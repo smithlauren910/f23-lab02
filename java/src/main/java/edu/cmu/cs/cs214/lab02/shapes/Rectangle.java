@@ -12,4 +12,8 @@ public class Rectangle implements Shape {
     public double getArea() {
         return height * width;
     }
+
+    public void draw() {
+        System.out.println("Drawing a rectangle with height " + height + " and width " + width);
+    }
 }
